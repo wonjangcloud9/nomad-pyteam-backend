@@ -17,6 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from service_api.auth.urls import service_api_auth_urlpatterns
+
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+urlpatterns.extend(service_api_auth_urlpatterns)
