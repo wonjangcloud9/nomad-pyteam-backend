@@ -5,6 +5,12 @@
 ### pyteam_backend
 - 프로젝트 셋팅 모듈
 
+### service_api
+- 기본 api 및 비즈니스 로직 모듈
+
+### data_auth
+- 인증 모델 및 어드민 모듈
+
 ## Guide of set-up
 
 ### commands
